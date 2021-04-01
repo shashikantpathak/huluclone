@@ -1,0 +1,49 @@
+.videoCard {
+  color: white;
+  width: 300px;
+  height: 400px;
+  padding: 40px;
+  transition: transform 100ms;
+}
+
+.videoCard:hover {
+  transform: scale(1.09);
+}
+
+.videoCard > img {
+  height: 300px;
+  /* object-fit: contain; */
+  width: 300px;
+
+}
+
+.videoCard > h2 {
+  padding-top: 10px;
+}
+.movie-overview {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  
+ 
+}
+.videoCard_stats {
+ display: none;
+}
+.videoCard:hover > .videoCard_stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: medium;
+}
+
+.likes {
+  display: flex;
+  align-items: center;
+}
+.likes>p{
+  margin-left:6px
+}
